@@ -30,10 +30,7 @@ class Item {
     }
 
     public String toString() {
-        return "ID: " + itemId +
-               ", Name: " + itemName +
-               ", Quantity: " + quantity +
-               ", Price: $" + price;
+        return "ID: " + itemId +", Name: " + itemName +", Quantity: " + quantity +", Price: Rs." + price;
     }
 }
 
